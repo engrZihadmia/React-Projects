@@ -1,0 +1,50 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 0px;
+}
+
+
+.ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.ul li a {
+    text-decoration: none;
+    color: #4D4D4D;
+    font-size: 14px;
+    translate:.4s;
+}
+
+.ul li a:hover {
+    color: #4CAF4F;
+}
+
+.button {
+    background: #4CAF4F;
+    color: #fff;
+    font-size: 13px;
+    border: 1px solid #4CAF4F;
+    border-radius: 5px;
+    cursor:pointer;
+    transition:.4s;
+}
+
+.RegisterButton {
+    padding: 15px 30px;
+}
+
+.button:hover{
+    background:#ffffff;
+    color: #4D4D4D;
+    border:1px solid #4CAF4F;
+}
